@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Jose Martinez Perez - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+        <nav class="navbar">
+            <div class="logo navbar-brand">
+                <a href="#"><img src="img/JMP Logo small.png" alt="juanjomp.com logo"></a>
+            </div>
+			<button class="navbar-toggler" id="navbar-toggler">
+				&#9776;
+			</button>
+			<div class="navbar-collapse" id="navbarNav">
+				<ul class="menu navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#about">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#timeline">Trayectoria</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/14V-TVQ9LMJcoM1ldMmxK8_ZRPP-BCIc2/view?usp=drive_link">Curriculum PDF</a></li>
+				</ul>
+			</div>
+			<div class="linkedin">
+				<a href="https://www.linkedin.com/in/juan-josé-martínez-pérez-2534342a0"><img src="img/linkedin-icon.png" alt="LinkedIn"></a>
+			</div>
+        </nav>
+    </header>
+    <!-- Sección Acerca de Mí -->
+    <section id="about">
+        <div class="container">
+            <div class="intro">
+                <h2>Acerca de Mí</h2>
+                <h1>¡Hola! Soy Juan Jose Martinez Perez, desarrollador y diseñador de <span class="highlight">UX / UI</span></h1>
+            </div>
+            <div class="info-grid">
+                <div class="info-block">
+                    <h3>Producto Digital, UX/UI</h3>
+                    <p>Soy diseñador de producto digital UX/UI con visión end to end, diseño enfocado en las personas y en los objetivos de negocio...</p>
+                </div>
+                <div class="info-block">
+                    <h3>Desarrollo web/multiplataforma</h3>
+                    <p>He trabajado en Departamento de Informatica, con metodologías ágiles (Kanban y Scrum), por sprints y MVP...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Portafolio -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h1>Portfolio Case Study</h1>
+            <div class="portfolio-grid">
+				<a href="cicla_app.html">
+					<div class="portfolio-item">
+						<img src="img/cicla.jpg" alt="Cicla Project">
+						<h3>Cicla</h3>
+					</div>
+				</a>
+                <div class="portfolio-item">
+                    <img src="img/kideats.jpg" alt="KidEats Project">
+                    <h3>Glovito</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/cupra.jpg" alt="Seat Cupra Project">
+                    <h3>Seat/Cupra</h3>
+                </div>
+            </div>
+        </div>
+		<div class="container">
+            <div class="portfolio-grid">
+				<a href="cicla_app.html">
+					<div class="portfolio-item">
+						<img src="img/cicla.jpg" alt="Cicla Project">
+						<h3>Cicla</h3>
+					</div>
+				</a>
+                <div class="portfolio-item">
+                    <img src="img/kideats.jpg" alt="KidEats Project">
+                    <h3>KidEats</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/cupra.jpg" alt="Seat Cupra Project">
+                    <h3>Seat/Cupra</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Trayectoria -->
+    <section id="timeline">
+        <div class="container">
+            <h2>Trayectoria</h2>
+            <h1>Trabajo y Educación</h1>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tablink" onclick="openTab(event, 'Experiencia')" id="defaultOpen">Experiencia</button>
+                <button class="tablink" onclick="openTab(event, 'Educacion')">Educación</button>
+            </div>
+			
+			<!-- Sección de Experiencia -->
+            <div id="Experiencia" class="tabcontent">
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item left">
+                        <div class="content">
+                            <h3>Desarrollador de software - Orenes Grupo (2021-2023)</h3>
+                            <p>Durante 2 anos. Trabajando como desarrollador junior...</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item right">
+                        <div class="content">
+                            <h3>Croupier - Orenes Grupo (2007-2021)</h3>
+                            <p>Durante 14 anos, gestionando y organizando torneos de Poker texas Hold'em...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección de Educación -->
+            <div id="Educacion" class="tabcontent">
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item left">
+                        <div class="content">
+                            <h3>Bootcamp UX/UI - Uxer School (2024)</h3>
+                            <p>Durante 6 meses. Haciendo prácticas de User research...</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item right">
+                        <div class="content">
+                            <h3>Desarrollo web - Ilerna FP (2024)</h3>
+                            <p>Durante 6 meses, complementando mi formacion en desarrollo multiplataforma...</p>
+                        </div>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item left">
+                        <div class="content">
+                            <h3>Desarrollo multiplataforma - Ilerna FP (2019-2021)</h3>
+                            <p>Durante 24 meses. Formacion profesional de grado superior...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<footer id="contact" class="parallax-footer">
+        <div class="footer-top">
+            <p></p>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-column">
+                <div class="logo_footer">
+					<a href="#"><img src="img/JMP Logo small.png" alt="juanjomp.com logo"></a>
+				</div>
+                <p><a href="mailto:info@juanjomp.com">info@juanjomp.com</a></p>
+                <p><a href="https://drive.google.com/file/d/14V-TVQ9LMJcoM1ldMmxK8_ZRPP-BCIc2/view?usp=drive_link">Curriculum PDF</a></p>
+            </div>
+
+            <div class="footer-column contact-info">
+                <h3>Contacto</h3>
+                <p>Juan Jose Martinez Perez</p>
+                <p>Murcia, España</p>
+                <p><a href="http://www.juanjomp.com">www.juanjomp.com</a></p>
+                <p><a href="tel:+34658953262">(+34) 658 953 262</a></p>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; Juan Jose Martinez Perez 2024 - Portfolio</p>
+        </div>
+    </footer>
+
+    <script>
+        // Script para manejar las pestañas
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+		
+		document.getElementById('navbar-toggler').addEventListener('click', function() {
+			var navbarNav = document.getElementById('navbarNav');
+			navbarNav.classList.toggle('show');
+		});
+		
+		var navLinks = document.querySelectorAll('.nav-link');
+		navLinks.forEach(function(link) {
+			link.addEventListener('click', function() {
+				var navbarNav = document.getElementById('navbarNav');
+				navbarNav.classList.remove('show');
+			});
+		});
+
+        // Abrir por defecto la pestaña "Educación"
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>
